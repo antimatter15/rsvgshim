@@ -1,3 +1,8 @@
+About/Warning (from my blog):
+For like an hour (so, not a really long time, and nothing near SVGWeb) or so, I was working on a new SVG shim similar to SVGWeb except that it renders to VML and SVG through Raphael rather than Flash (so now I can actually brag about not having *any* plugins :P). Using it is somewhat simpler than SVGWeb, except that you need some replacing, but no need for a server, htcs, etc. Plus, the file is only 3.2 kb uncompressed, only 740 bytes gzipped and YUI'd. Also, it only works with rectangles and ellipses but could be somewhat easily modified to support anything that raphael does. While probably it does not work on IE (as I use linux and have no way to test), it's an interesting concept.
+
+It only works with pages where a SVG element is added dynamically after the page is loaded (contrasting to SVGWeb which only allows a SVG element to be added in code).
+
 To Use:
 
 Just replace all instances of document. with rshimdoc. 
